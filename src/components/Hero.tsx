@@ -15,18 +15,18 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-16 md:py-24 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-eco-dark leading-tight">
-            Sustainable Choices for a <span className="text-eco-medium">Better Tomorrow</span>
+            La Plateforme pour la <span className="text-eco-medium">Transition Écologique</span>
           </h1>
           <p className="text-lg md:text-xl mb-8 text-gray-700 max-w-3xl mx-auto">
-            Join our community of individuals and organizations committed to environmental stewardship and climate action. Together, we can create meaningful change.
+            Rejoignez notre communauté d'individus et d'organisations engagés pour l'environnement. Ensemble, créons un impact positif grâce à des connaissances partagées, des outils pratiques et des initiatives durables.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
             <Button className="btn-eco-primary px-6 py-6 text-base gap-2">
-              <span>Get Started</span>
+              <span>Commencer</span>
               <ArrowRight className="h-4 w-4" />
             </Button>
             <Button variant="outline" className="btn-eco-outline px-6 py-6 text-base">
-              Learn More
+              En savoir plus
             </Button>
           </div>
         </div>
@@ -36,12 +36,12 @@ const Hero = () => {
             <div className="w-16 h-16 flex items-center justify-center rounded-full bg-eco-ultralight mb-4">
               <Users className="h-8 w-8 text-eco-medium" />
             </div>
-            <h2 className="text-2xl font-semibold mb-3 text-eco-dark">For Individuals</h2>
+            <h2 className="text-2xl font-semibold mb-3 text-eco-dark">Pour les Individus</h2>
             <p className="text-gray-600 mb-6">
-              Discover tools to understand your environmental impact, access resources for sustainable living, and connect with a community of like-minded individuals.
+              Découvrez des outils pour comprendre votre impact environnemental, accédez à des ressources pour une vie durable, et connectez-vous avec une communauté partageant les mêmes valeurs.
             </p>
             <Button variant="outline" className="btn-eco-outline mt-auto">
-              Explore Resources
+              Explorer les ressources
             </Button>
           </div>
           
@@ -49,12 +49,12 @@ const Hero = () => {
             <div className="w-16 h-16 flex items-center justify-center rounded-full bg-ocean-light/20 mb-4">
               <Building2 className="h-8 w-8 text-ocean-medium" />
             </div>
-            <h2 className="text-2xl font-semibold mb-3 text-ocean-dark">For Organizations</h2>
+            <h2 className="text-2xl font-semibold mb-3 text-ocean-dark">Pour les Organisations</h2>
             <p className="text-gray-600 mb-6">
-              Showcase your sustainable initiatives, access market insights on eco-conscious consumers, and engage in ethical advertising to reach your target audience.
+              Présentez vos initiatives durables, accédez à des informations sur les consommateurs éco-responsables, et engagez-vous dans une communication éthique pour atteindre votre public cible.
             </p>
             <Button variant="outline" className="border-ocean-medium text-ocean-dark hover:bg-ocean-light/20 mt-auto">
-              Partner With Us
+              Devenir partenaire
             </Button>
           </div>
         </div>
